@@ -1,0 +1,57 @@
+<title>Happy valentines day</title>
+
+<section class="all-browsers">
+<h1>What is Valentines day</h1>
+<p>Valentine's Day, also called Saint Valentine's Day or the Feast of Saint Valentine, is celebrated annually on February 14. It originated as a Christian feast day honoring a martyr named Valentine.</p>
+</section>
+
+<section class="all-browsers">
+<h1>Valentines symbol</h1>
+<p>Valentines symbol is cupid it's the winged, bow and arrow–wielding baby known as him. Roses, hearts, doves and the colours red and pink are all associated with Valentine's Day.</p>
+</section>
+
+<article class="browser">
+<h2>The history behind Valentine's Day</h2>
+<p>It originated as a Christian feast day honoring a martyr named Valentine. Through later folk traditions, it has become a significant cultural and commercial celebration of romance and love in many regions of the world. The ancient Romans may also be responsible for the name of our modern day of love. Emperor Claudius II executed two men — both named Valentine — on Feb. 14 of different years in the third century. Their martyrdom was honored by the Catholic Church with the celebration of St. Valentine's Day.</p>
+</article>
+
+CSS
+<html>
+<head>
+<style>
+.section {
+  margin: 0
+  padding: 5px
+  background-color: #ededed;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+  <title>Happy valentines day</title>
+  <section class="all-browsers">
+    <h1>What is Valentines day</h1>
+    <p>Valentine's Day, also called Saint Valentine's Day or the Feast of Saint Valentine, is celebrated annually on February 14. It originated as a Christian feast day honoring a martyr named Valentine.</p>
+  </section>
+  <section class="all-browsers">
+    <h2>Valentines symbol</h2>
+    <p>Valentines symbol is cupid it's the winged, bow and arrow–wielding baby known as him. Roses, hearts, doves and the colours red and pink are all associated with Valentine's Day.</p>
+  </section>
+  <article class="all-browsers">
+    <h2>The history behind Valentine's Day</h2>
+    <p>It originated as a Christian feast day honoring a martyr named Valentine. Through later folk traditions, it has become a significant cultural and commercial celebration of romance and love in many regions of the world. The ancient Romans may also be responsible for the name of our modern day of love. Emperor Claudius II executed two men — both named Valentine — on Feb. 14 of different years in the third century. Their martyrdom was honored by the Catholic Church with the celebration of St. Valentine's Day.</p>
+  </article>
+
+</body>
+</html>
